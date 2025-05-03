@@ -62,10 +62,11 @@ LC-Resonance-Circuit-ltspice/
 
 ## 👨‍🎓 Author
 
-**Mainak Roy**  
+#### Mainak Roy  
 🎓 M.Sc. Electrical Engineering – Electronics Design & Technology  
 🏫 Universität Siegen  
 
-🌐 GitHub: [@238Roy](https://github.com/238Roy) Contact: mainak.roy@student.uni-siegen.de
+🌐 GitHub: [@238Roy](https://github.com/238Roy)
+
    
 
