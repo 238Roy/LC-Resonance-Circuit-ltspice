@@ -58,3 +58,14 @@ LC-Resonance-Circuit-ltspice/
     ├── rlc_response.txt         ← Exported simulation data
     ├── plot_rlc_response.py     ← Python script for plotting
     └── rlc_response_plot.png    ← Resulting frequency response plot
+---
+
+## 👨‍🎓 Author
+
+**Mainak Roy**  
+🎓 M.Sc. Electrical Engineering – Electronics Design & Technology  
+🏫 Universität Siegen  
+
+🌐 GitHub: [@238Roy](https://github.com/238Roy) Contact: mainak.roy@student.uni-siegen.de
+   
+
