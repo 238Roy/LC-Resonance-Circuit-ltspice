@@ -1,45 +1,44 @@
 # LC Resonance Circuit – LTSpice Simulation & Python Visualization
 
-This project simulates an **LC resonance circuit** with variable damping resistance using **LTSpice**, and visualizes the output using **Python (Matplotlib)**. It is part of my coursework in *Bauelemente und Schaltungstechnik* at Universität Siegen and contributes to my analog/mixed-signal skill development.
+This project simulates an **LC resonance circuit** with variable damping resistance using **LTSpice**, and visualizes the results using **Python (Matplotlib)**. It is part of my coursework in *Bauelemente und Schaltungstechnik* at Universität Siegen and contributes to my analog/mixed-signal skill development.
 
 ---
 
 ## 🔧 Project Overview
 
-We analyze a simple RLC series circuit with:
+A classic RLC series circuit was designed to analyze how the damping resistor (R2) affects the resonance peak and bandwidth.
 
+**Component values:**
 - **L** = 20 mH  
 - **C** = 10 nF  
 - **R2** = [20 Ω, 80 Ω, 200 Ω]  
-- **AC Source** = 1V small signal sweep
+- **AC Source** = 1V small signal sweep (AC analysis)
 
-The goal is to examine:
-
-- Resonant frequency  
-- Output voltage amplitude  
-- Bandwidth and quality factor (Q)  
-- Impact of resistance on selectivity and damping
+🧠 **Goals:**
+- Identify the resonant frequency
+- Observe the impact of damping resistance on output voltage
+- Calculate bandwidth and quality factor (Q)
 
 ---
 
 ## 🧪 LTSpice Simulation
 
-The AC sweep is performed across different R values. Data is exported using LTSpice's waveform viewer as a `.txt` file for external processing.
+An AC sweep analysis was performed in LTSpice. Voltage output was observed and exported for further analysis.
 
 📁 Files:
-- `Aufgabe_LC_Resonance/RLC.asc` – Circuit schematic  
-- `Aufgabe_LC_Resonance/report.pdf` – Detailed write-up  
-- `Aufgabe_LC_Resonance/rlc_response.txt` – Exported frequency-voltage data  
+- `Aufgabe_LC_Resonance/RLC.asc` – LTSpice schematic  
+- `Aufgabe_LC_Resonance/report.pdf` – Full write-up with circuit theory and observations  
+- `Aufgabe_LC_Resonance/rlc_response.txt` – Exported data from LTSpice's waveform viewer  
 
 ---
 
 ## 📊 Python Visualization
 
-The exported LTSpice data was processed using a custom Python script with `matplotlib`. Voltage values were extracted from the dB-formatted string and converted to linear mV scale.
+The exported `.txt` file was processed using a custom Python script. The complex voltage (in dB) was converted to linear scale (mV) and plotted across frequency.
 
 📁 Files:
-- `plot_rlc_response.py` – Script to parse and plot the data  
-- `rlc_response_plot.png` – Output frequency response graph
+- `plot_rlc_response.py` – Python script for parsing and plotting  
+- `rlc_response_plot.png` – Output image (frequency vs voltage)
 
 📉 Preview:
 
@@ -58,15 +57,19 @@ LC-Resonance-Circuit-ltspice/
     ├── rlc_response.txt         ← Exported simulation data
     ├── plot_rlc_response.py     ← Python script for plotting
     └── rlc_response_plot.png    ← Resulting frequency response plot
+```
+
 ---
 
 ## 👨‍🎓 Author
 
-#### Mainak Roy  
-🎓 M.Sc. Electrical Engineering – Electronics Design & Technology  
-🏫 Universität Siegen  
+### **Mainak Roy**
 
-🌐 GitHub: [@238Roy](https://github.com/238Roy)
+🎓 *M.Sc. Electrical Engineering – Electronics Design & Technology*  
+🏫 *Universität Siegen*  
 
-   
 
+🌐 **GitHub**: [@238Roy](https://github.com/238Roy)  
+📫 **Email**: mainak.roy@student.uni-siegen.de
+
+---
