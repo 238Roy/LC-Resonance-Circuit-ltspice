@@ -68,8 +68,4 @@ LC-Resonance-Circuit-ltspice/
 🎓 *M.Sc. Electrical Engineering – Electronics Design & Technology*  
 🏫 *Universität Siegen*  
 
-
-🌐 **GitHub**: [@238Roy](https://github.com/238Roy)  
-📫 **Email**: mainak.roy@student.uni-siegen.de
-
 ---
